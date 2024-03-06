@@ -30,9 +30,7 @@ import { FormControl,FormGroup,ReactiveFormsModule } from '@angular/forms';
           <form [formGroup]="applyForm" (submit)="submitApplication()">
           <label for="firstName">First Name</label>
           <input id="first-name" type="text" formControlName="firstName">
-          <label for="first-name" type="text" formControlName="lastName">
           <label for="last-name">Last Name</label>
-          <input id="last-name" type="text" formControlName="firstName">
           <input id="last-name" type="text" formControlName="lasttName">
           <label for="email">Email</label>
           <input id="email" type="email" formControlName="email">
