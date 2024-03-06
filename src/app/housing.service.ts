@@ -110,7 +110,7 @@ protected housingLocationList: Housinglocation[] = [
 getAllHousingLocations(): Housinglocation[] {
   return this.housingLocationList;
 }
-getHousingLocationList(id:number): Housinglocation | undefined {
+getHousingLocationById(id:number): Housinglocation | undefined {
   return this.housingLocationList.find(housingLocation => housingLocation.id === id);
 }
 }
