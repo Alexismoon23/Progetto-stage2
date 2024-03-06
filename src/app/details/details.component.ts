@@ -9,10 +9,16 @@ import { Housinglocation } from '../housing-location/housinglocation';
   standalone: true,
   imports: [CommonModule],
   template: `
-     <p>details works! </p>
-  `,
+     '<p>details work</p> {{housingLocationId}}'
+
+     `,
   styleUrl: './details.component.css'
 })
 export class DetailsComponent {
-
+route: ActivatedRoute = inject(ActivatedRoute);
+housingLocationId = -1
+constructor() {
+  this.housingLocationId = 
+  Number(this.route.snapshot.params['id']);
+}
 }
