@@ -1,11 +1,10 @@
 .listing-photo{
 height: 400px;
-width: 350px;
+width: 650px;
 object-fit: cover;
 border-radius: 50px;
-float: left;
+float: right;
 }
-
 .listing-heading{
     font-size:30pt;
     font-weight: bold;
@@ -42,6 +41,7 @@ float: left;
   .listing-features li {
     font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
   }
   
   li {
@@ -51,17 +51,18 @@ float: left;
   .listing-apply .section-heading {
     font-size: 18pt;
     margin-bottom: 15px;
-    background-color: darkblue;
+    color:darkblue
   }
   
   label, input {
     display: block;
   }
   label {
-    color: var(--secondary-color);
     font-weight: bold;
     text-transform: uppercase;
     font-size: 12pt;
+    color:darkblue;
+    padding-bottom: 10px;
   }
   input {
     font-size: 16pt;
@@ -73,9 +74,16 @@ float: left;
     border-left: none;
     border-bottom: solid .3px;
   }
+  button {
+    padding: 15px 15px 15px 15px;
+    color:whitesmoke;
+    background-color:darkblue;
+    border-radius:15px;
+  }
   @media (max-width: 1024px) {
     .listing-photo {
       width: 100%;
       height: 400px;
     }
+  
   }
