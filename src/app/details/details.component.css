@@ -1,8 +1,8 @@
 .listing-photo{
-height: 25px;
-width: 10px;
+height: 400px;
+width: 350px;
 object-fit: cover;
-border-radius: 20px;
+border-radius: 50px;
 float: left;
 }
 
@@ -12,7 +12,6 @@ float: left;
     margin-bottom: 15px;
     font-family:Arial, Helvetica, sans-serif;
     color:darkblue;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .listing-location::before {
     content: url('/assets/location-pin.svg') / '';
