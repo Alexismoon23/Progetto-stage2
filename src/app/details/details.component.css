@@ -1,15 +1,18 @@
 .listing-photo{
-height: 300px;
-width: 60px;
+height: 25px;
+width: 10px;
 object-fit: cover;
-border-radius: 15px;
-float: right;
+border-radius: 20px;
+float: left;
 }
 
 .listing-heading{
-    font-size:48pt;
+    font-size:30pt;
     font-weight: bold;
     margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .listing-location::before {
     content: url('/assets/location-pin.svg') / '';
@@ -17,21 +20,29 @@ float: right;
   
   .listing-location {
     font-size: 24pt;
-    margin-bottom: 15px;
+    color:darkblue;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .listing-features > .section-heading {
     color: var(--secondary-color);
     font-size: 24pt;
     margin-bottom: 15px;
+    color:darkblue;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .listing-features {
     margin-bottom: 20px;
+    color:darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+
   }
   
   .listing-features li {
     font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   li {
@@ -41,6 +52,7 @@ float: right;
   .listing-apply .section-heading {
     font-size: 18pt;
     margin-bottom: 15px;
+    background-color: darkblue;
   }
   
   label, input {

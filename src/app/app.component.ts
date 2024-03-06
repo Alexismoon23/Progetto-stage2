@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
       <header class="brand-name">
         <!--<img class="brand-logo" src="/assets/logo.png" alt="logo" aria-hidden="true">-->
         <img class="brand-logo" src="/assets/home2.png" alt="logo" aria-hidden="true">
-        
+  
       </header>
       </a>
       <section class="content">
