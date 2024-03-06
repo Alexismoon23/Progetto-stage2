@@ -11,6 +11,7 @@ import { HousingService } from '../housing.service';
     HousingLocationComponent
   ],
   template: `
+  <p class="green">Homes</p>
     <section>
       <form>
         <input type="text" placeholder="Filter by city">

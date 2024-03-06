@@ -1,13 +1,15 @@
-import { Component } from '@angular/core';
+import { Component,inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
+import { HousingService } from '../housing.service';
+import { Housinglocation } from '../housing-location/housinglocation';
 
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   template: `
-    <p>
-      details works!
-    </p>
+     <p>details works! </p>
   `,
   styleUrl: './details.component.css'
 })
