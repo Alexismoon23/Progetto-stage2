@@ -80,4 +80,9 @@ title{
 .green{
   color:green;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin: 0;
 }
