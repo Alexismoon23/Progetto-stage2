@@ -49,8 +49,10 @@ lastName:new FormControl(''),
 email: new FormControl('')
 });
 constructor() {
-  const housingLocationId = Number(this.route.snapshot.params['id']);
-  this.housingLocation = this.housingService.getHousingLocationById(housingLocationId)
+  const housingLocationId = parseInt(this.route.snapshot.params['id'],10);
+  this.housingService.getHousingLocationById(housingLocationId).then(housingLocation => {
+    this.housingLocation = housingLocation;
+  });
 }
 
 submitApplication() {
