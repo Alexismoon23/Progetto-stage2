@@ -1,40 +1,4 @@
-/*.listing {
-  background: var(--accent-color);
-  border-radius: 30px;
-  padding-bottom: 30px;
-}
-.listing-heading {
-  color: var(--primary-color);
-  padding: 10px 20px 0 20px;
-}
-.listing-photo {
-  height: 50px;
-  width: 35%;
-  object-fit: cover;
-  border-radius: 15px 15px 15px 15px;
-}
-.listing-location {
-  padding: 20px 30px 25px 15px;
-}
-.listing-location::before {
-  content: url("/assets/location-pin.svg") / "";
-}
 
-section.listing a {
-  padding-left: 30px;
-  text-decoration: none;
-  color: var(--primary-color);
-}
-section.listing a::after {
-  content: "\203A";
-  margin-left: 5px;
-}
-button {
-  background-color: darkgreen;
-  color: aliceblue;
-  font-size: 13px;
-  font-family: 'Times New Roman', Times, serif;
-}*/
 
 .results{
   display:grid;
@@ -78,11 +42,13 @@ title{
   color: green;
 }
 .green{
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:green;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 7vh;
   margin: 0;
 }
